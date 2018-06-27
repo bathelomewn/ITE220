@@ -1,5 +1,6 @@
 body {
-	background-color:blue;
+	background-color:bisque;
+
 }
 
 h1{
@@ -24,4 +25,56 @@ hr{
 p {
 	text-align:center;
 	color:red;
+}
+
+header {
+    background-color: #666;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 5px;
+	text-align:center;
+}
+
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+
+
+
+
+.footer {
+   position: fixed;
+   padding:20px;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#777;
+   color: white;
+   text-align: center;
+   padding:10px;
+}
+
+.nav {
+	position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: left;
 }
